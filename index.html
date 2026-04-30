@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healyours0ul — Bromo Anniversary Couple Session</title>
+  <meta name="description" content="Landing page utama khusus Bromo untuk anniversary couple session, private romantic tour, dan dokumentasi foto video di Bromo." />
+  <meta name="theme-color" content="#090706" />
+  <meta property="og:title" content="Healyours0ul — Bromo Anniversary Couple Session" />
+  <meta property="og:description" content="Paket foto anniversary dan private tour Bromo dengan nuansa luxury romantic, sunrise, dan booking via WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518458628499-27acd7f2c893?auto=format&fit=crop&w=1600&q=82" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23090706'/%3E%3Cpath d='M10 45 25 19l9 17 7-10 13 19H10Z' fill='%23d7a84c'/%3E%3Ccircle cx='48' cy='16' r='5' fill='%23f2d394'/%3E%3C/svg%3E" />
+  <style>
+    :root {
+      --bg: #080706;
+      --gold: #d7a84c;
+      --gold-soft: #f3d793;
+      --cream: #fff3dc;
+      --text: #ffffff;
+      --soft: rgba(255,255,255,.76);
+      --muted: rgba(255,255,255,.56);
+      --line: rgba(215,168,76,.24);
+      --line-strong: rgba(215,168,76,.48);
+      --green: #25d366;
+      --shadow: 0 24px 70px rgba(0,0,0,.34);
+      --shadow-strong: 0 34px 100px rgba(0,0,0,.48);
+      --container: min(1180px, calc(100% - 36px));
+      --bromo-hero: url("https://images.unsplash.com/photo-1518458628499-27acd7f2c893?auto=format&fit=crop&w=2200&q=82");
+      --bromo-sand: url("https://images.unsplash.com/photo-1642421463141-10df1dddd249?auto=format&fit=crop&w=1400&q=82");
+      --bromo-green: url("https://images.unsplash.com/photo-1698245674306-61e848b2e29d?auto=format&fit=crop&w=1400&q=82");
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top, #2c2118 0%, #0c0907 42%, #050505 100%);
+      min-height: 100vh;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: radial-gradient(circle at 12% 10%, rgba(215,168,76,.13), transparent 30%), radial-gradient(circle at 88% 15%, rgba(255,255,255,.05), transparent 28%);
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    h1, h2, h3, p { margin: 0; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+    .container { width: var(--container); margin-inline: auto; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(180deg, rgba(0,0,0,.82), rgba(0,0,0,.55));
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .nav-inner {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      padding: 10px 0;
+    }
+    .brand {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 7px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: .01em;
+      white-space: nowrap;
+    }
+    .brand::after {
+      content: "";
+      width: 76px;
+      height: 4px;
+      border-radius: 999px;
+      background: var(--gold);
+      box-shadow: 0 0 18px rgba(215,168,76,.65);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .nav-link {
+      color: rgba(255,255,255,.78);
+      padding: 10px 12px;
+      border-radius: 999px;
+      font-weight: 750;
+      font-size: 13px;
+      transition: .2s ease;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--gold-soft);
+      border-color: rgba(215,168,76,.32);
+      background: rgba(215,168,76,.08);
+    }
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #f3d48b, #b77b25);
+      color: #17100a;
+      font-weight: 900;
+      box-shadow: 0 16px 34px rgba(215,168,76,.22);
+      white-space: nowrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--line-strong);
+      background: linear-gradient(135deg, #f3d48b, #b77b25);
+      color: #17100a;
+      font-weight: 900;
+      box-shadow: 0 18px 44px rgba(215,168,76,.22);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 22px 55px rgba(215,168,76,.32); }
+    .btn.dark { background: rgba(0,0,0,.42); color: var(--cream); border-color: rgba(255,255,255,.16); box-shadow: none; }
+
+    .hero {
+      min-height: calc(100vh - 78px);
+      display: grid;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+      background: linear-gradient(180deg, rgba(0,0,0,.12), rgba(0,0,0,.82)), var(--bromo-hero) center/cover;
+      border-radius: 0 0 44px 44px;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: radial-gradient(circle at 15% 25%, rgba(255,198,91,.25), transparent 30%);
+    }
+    .hero-inner { padding: 118px 0 70px; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--gold-soft);
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing: .18em;
+    }
+    .eyebrow::before,
+    .eyebrow::after { content: ""; width: 42px; height: 1px; background: var(--gold); }
+    h1 {
+      font-size: clamp(64px, 11vw, 154px);
+      line-height: .78;
+      letter-spacing: -.07em;
+      text-transform: uppercase;
+      text-shadow: 0 10px 32px rgba(0,0,0,.5);
+    }
+    .hero-sub {
+      margin-top: 16px;
+      color: var(--gold-soft);
+      font-size: clamp(28px, 4.4vw, 56px);
+      line-height: 1;
+    }
+    .hero-copy {
+      margin-top: 18px;
+      max-width: 760px;
+      color: rgba(255,255,255,.92);
+      font-size: clamp(17px, 2vw, 23px);
+      line-height: 1.55;
+    }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
+    .trust-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    .trust-row span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      background: rgba(0,0,0,.42);
+      border: 1px solid rgba(215,168,76,.25);
+      color: rgba(255,255,255,.84);
+      font-size: 13px;
+    }
+
+    .section { padding: 76px 0; }
+    .section-head { display: grid; gap: 14px; margin-bottom: 30px; }
+    .section-head.center { text-align: center; justify-items: center; }
+    .kicker { color: var(--gold-soft); text-transform: uppercase; letter-spacing: .16em; font-size: 12px; font-weight: 950; }
+    .section-title { font-size: clamp(34px, 5vw, 62px); line-height: 1; letter-spacing: -.04em; }
+    .lead { color: var(--soft); line-height: 1.85; max-width: 830px; font-size: 17px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .glass {
+      border-radius: 28px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.065), rgba(255,255,255,.025));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .content-card { padding: 26px; }
+    .content-card h3 { color: var(--cream); font-size: 22px; margin-bottom: 10px; }
+    .content-card p { color: var(--soft); line-height: 1.75; }
+    .icon {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: rgba(215,168,76,.12);
+      border: 1px solid rgba(215,168,76,.28);
+      color: var(--gold-soft);
+      font-weight: 950;
+      margin-bottom: 16px;
+    }
+    .image-card {
+      min-height: 390px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      isolation: isolate;
+      background: center/cover no-repeat;
+      border-radius: 28px;
+      border: 1px solid var(--line);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .image-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.88));
+    }
+    .image-body { padding: 24px; }
+    .image-body h3 { color: var(--cream); font-size: 24px; margin-bottom: 8px; }
+    .image-body p { color: var(--soft); line-height: 1.7; font-size: 15px; }
+    .tag {
+      display: inline-flex;
+      width: fit-content;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(215,168,76,.16);
+      border: 1px solid rgba(215,168,76,.35);
+      color: var(--gold-soft);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    .feature-layout { display: grid; grid-template-columns: 1.08fr .92fr; gap: 22px; align-items: stretch; }
+    .feature-image {
+      min-height: 520px;
+      background: linear-gradient(180deg, rgba(0,0,0,.08), rgba(0,0,0,.85)), var(--bromo-hero) center/cover;
+      border-radius: 34px;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow-strong);
+      display: flex;
+      align-items: flex-end;
+      padding: 34px;
+    }
+    .feature-image h2 { font-size: clamp(34px, 4.4vw, 56px); line-height: 1; }
+    .feature-list { display: grid; gap: 14px; }
+    .spot-seruni { background-image: var(--bromo-hero); }
+    .spot-pasir { background-image: var(--bromo-sand); }
+    .spot-green { background-image: var(--bromo-green); }
+    .sticky-wa {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 60;
+      width: 62px;
+      height: 62px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--green);
+      border: 3px solid rgba(255,255,255,.88);
+      box-shadow: 0 18px 38px rgba(37,211,102,.35);
+      font-size: 31px;
+    }
+    footer { padding: 34px 0 42px; border-top: 1px solid rgba(215,168,76,.18); background: #050505; }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr repeat(4, auto); gap: 18px; align-items: center; }
+    .contact-pill { display: inline-flex; align-items: center; gap: 9px; color: rgba(255,255,255,.76); font-size: 14px; white-space: nowrap; }
+    .contact-pill b { color: var(--gold-soft); font-size: 16px; }
+
+    @media (max-width: 1050px) {
+      .nav-inner { align-items: flex-start; flex-direction: column; }
+      .nav-links { justify-content: flex-start; }
+      .feature-layout { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr; }
+      .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .hero { min-height: 640px; border-radius: 0 0 30px 30px; }
+      .hero-inner { padding: 70px 0 44px; }
+      h1 { font-size: 72px; }
+      .hero-actions { flex-direction: column; }
+      .btn { width: 100%; }
+      .grid-4 { grid-template-columns: 1fr; }
+      .feature-image { min-height: 430px; padding: 24px; }
+      .content-card { padding: 22px; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .sticky-wa { width: 58px; height: 58px; right: 16px; bottom: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="Navigasi utama">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">Healyours0ul</a>
+      <div class="nav-links">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="paket.html">Paket</a>
+        <a class="nav-link" href="spot-bromo.html">Spot Bromo</a>
+        <a class="nav-link" href="galeri.html">Galeri</a>
+        <a class="nav-link" href="itinerary.html">Itinerary</a>
+        <a class="nav-link" href="booking.html">Booking</a>
+      </div>
+      <a class="nav-cta" href="booking.html">Booking WA</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="eyebrow">Bromo Only</div>
+      <h1>Bromo</h1>
+      <div class="hero-sub serif">Anniversary Couple Session</div>
+      <p class="hero-copy">Bangun sebelum matahari terbit, berdiri berdua di antara lautan awan Bromo, lalu abadikan momen anniversary dalam nuansa sunrise yang hangat, private, dan terasa premium.</p>
+      <div class="hero-actions">
+        <a class="btn" href="booking.html">Konsultasi Paket Bromo</a>
+        <a class="btn dark" href="spot-bromo.html">Lihat Spot Romantis</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ Khusus Bromo</span>
+        <span>✓ Private couple session</span>
+        <span>✓ Foto dan video documentation</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container grid-4">
+        <article class="content-card glass"><strong class="icon">4</strong><h3>Spot Romantis Bromo</h3><p>Seruni Point, Pasir Berbisik, Bukit Teletubbies, dan Kawah Bromo.</p></article>
+        <article class="content-card glass"><strong class="icon">24</strong><h3>Konsultasi WhatsApp</h3><p>Pesan booking tersusun otomatis agar proses konsultasi lebih mudah.</p></article>
+        <article class="content-card glass"><strong class="icon">P</strong><h3>Private Session</h3><p>Konsep dibuat lebih personal untuk anniversary, honeymoon, dan couple trip.</p></article>
+        <article class="content-card glass"><strong class="icon">C</strong><h3>Custom Concept</h3><p>Outfit, spot, dan alur perjalanan dapat disesuaikan dengan kebutuhan.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container feature-layout">
+        <article class="feature-image">
+          <div>
+            <span class="tag">Service Promise</span>
+            <h2 class="serif">Romantis, private, dan fokus pada Bromo.</h2>
+            <p class="lead" style="margin-top:14px;">Setiap halaman dibuat untuk mendukung satu janji utama: pengalaman Bromo yang berkesan untuk pasangan, tanpa melebar ke destinasi lain.</p>
+          </div>
+        </article>
+        <div class="feature-list">
+          <article class="content-card glass"><strong class="icon">01</strong><h3>Konsep disesuaikan</h3><p>Anniversary, honeymoon, casual romantic, atau private tour bisa dibicarakan dari awal.</p></article>
+          <article class="content-card glass"><strong class="icon">02</strong><h3>Spot tidak terasa ramai</h3><p>Angle, timing, dan komposisi diarahkan agar pasangan tetap menjadi fokus utama.</p></article>
+          <article class="content-card glass"><strong class="icon">03</strong><h3>Visual konsisten Bromo</h3><p>Gambar dan deskripsi mengikuti tema Bromo: sunrise, pasir, savana, kawah, dan viewpoint.</p></article>
+          <article class="content-card glass"><strong class="icon">04</strong><h3>Booking mudah</h3><p>Form booking otomatis menyusun pesan WhatsApp agar calon customer tidak perlu mengetik dari awal.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <div class="kicker">Preview Spot</div>
+          <h2 class="section-title serif">Semua gambar tetap dalam konteks Bromo.</h2>
+          <p class="lead">Tidak ada latar kota, gedung, indoor wedding, atau lokasi yang keluar dari tema Bromo.</p>
+        </div>
+        <div class="grid-3">
+          <article class="image-card spot-seruni"><div class="image-body"><h3>Seruni Point Sunrise</h3><p>View sunrise Bromo yang cocok untuk siluet pasangan dan foto anniversary.</p></div></article>
+          <article class="image-card spot-pasir"><div class="image-body"><h3>Pasir Berbisik</h3><p>Lautan pasir yang luas untuk foto couple dengan nuansa cinematic.</p></div></article>
+          <article class="image-card spot-green"><div class="image-body"><h3>Bukit Teletubbies</h3><p>Lanskap hijau yang lembut untuk sesi yang lebih natural dan hangat.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="brand">Healyours0ul</div>
+      <a class="contact-pill" href="https://instagram.com/healyours0ul" target="_blank" rel="noreferrer"><b>◎</b> healyours0ul</a>
+      <a class="contact-pill" href="https://wa.me/62895613938200" target="_blank" rel="noreferrer"><b>☘</b> 0895-6139-38200</a>
+      <a class="contact-pill" href="mailto:najwaauliapy@gmail.com"><b>✉</b> najwaauliapy@gmail.com</a>
+      <span class="contact-pill"><b>♪</b> Healyours0ull</span>
+    </div>
+  </footer>
+
+  <a class="sticky-wa" href="https://wa.me/62895613938200?text=Halo%20Healyours0ul%2C%20saya%20mau%20konsultasi%20paket%20Bromo." target="_blank" rel="noreferrer" aria-label="WhatsApp">☘</a>
+</body>
+</html>
